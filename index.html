@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>HTML, CSS, JS Oktatóapp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>HTML, CSS és JS oktatóprogram</h1>
+    <section id="lesson">
+      <h2>HTML-alapok</h2>
+      <p>A HTML dokumentumok elemekből épülnek fel. Például a &lt;p&gt; elem egy bekezdést határoz meg.</p>
+      <textarea id="editor" rows="10">
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p>Ez egy bekezdés.</p>
+  </body>
+</html>
+      </textarea>
+      <iframe id="preview"></iframe>
+      <button onclick="downloadHTML()">HTML letöltése</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
